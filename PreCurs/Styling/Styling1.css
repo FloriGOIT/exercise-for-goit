@@ -1,0 +1,85 @@
+body {
+     background-color:burlywood;
+     font-family: 'Montserrat', sans-serif;
+     }
+
+.site-field 
+            {
+            background-color: white;
+            display: flex;
+            Width: 1200px;
+            height: 1320px;
+            margin: 40px auto;
+            font-size: 14px;}
+
+/*.Contur-field {background-color: #FB6D3A;
+               Width: 1240px;
+               height: 1360px;
+               display:flexbox}*/
+
+.Left-section {
+               margin-right: 60px;
+              width: 400px;
+              background-color: #1E2939;
+              color: #fff;
+              }
+img {width: 350px;
+     margin-top: 40px;}
+.Contacts, .Tech-skills, .Soft-skills  {padding-left: 40px;
+                                        padding-top: 20px;}
+
+.Aside-titels {font-size: 22px;}
+.Tech-skills ul {padding-left: 20px;}
+.Soft-skills ul {padding-left: 20px;}
+.Tech-skills li {color: #FB6D3A;}
+.Soft-skills li {color: #FB6D3A;}
+.Tech-skills span {color: #fff;}
+.Soft-skills span {color: #fff;}
+.Aside-titels-list {color: #fff;}
+.contacts-details {color:grey;
+                 padding-left: 10px;}
+
+.Personal-details-section {padding-top: 60px;}
+.Front-End-Developer {width: 700px;
+                      font-size: 14px;}
+.Zambila-Garoafa {width: 700px;
+                 font-size: 48px;}
+.Personal-details-section p {color: grey;
+                             width: 500px;
+                             font-size: 14px;}
+.Project-introduction h3 {padding-top: 25px;
+                         width: 700px;
+                         font-size: 16px;}
+.Project-introduction ol {padding-left: 20px;
+                         font-size: 14px;
+                         }
+.Project-introduction ol a, span {color: grey;
+                           padding-left: 7px;}
+.paranteza-patrata {color: black;}
+.Work-esperience {padding-top: 25px;}
+.education-esperience {padding-top: 25px;}
+.Work-esperience h3 {font-size: 25px;}
+.Work-esperience h4 {font-size: 18px;}
+.Work-esperience h4 span {color: #FB6D3A}
+.Work-esperience1 {width: 500;}
+.Work-esperience1 ul {padding-left: 20px;
+                      width: 500;}
+.Work-esperience2 ul {padding-left: 20px;
+                         width: 700;}
+.Work-esperience3 ul {padding-left: 20px;
+                         width: 500;}
+.Work-esperience1 ul li {padding-left: 5px;
+                            color: grey;
+                            font-size: 14px;}
+    
+.Work-esperience2  ul li {padding-left: 5px;
+                            color: grey;
+                            font-size: 14px;}
+    
+.Work-esperience3 ul li {padding-left: 5px;
+                            color: grey;
+                            font-size: 14px;}
+
+
+
+
