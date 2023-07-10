@@ -1,13 +1,104 @@
-* {box-sizing: border-box;}
-.menu {display: flex;
-        flex-direction: row;
-
-
+body {background-color: rgb(193, 173, 212);
+        line-height: 1.5;}
+.box {box-sizing: content-box;
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border: 0px solid #f44336;
+        }
+.box h1 {color: brown;  
 }
-.item {
- list-style-type:none;
- padding: 20px;
- text-decoration: none;}
- a:link {
-  text-decoration: none;
+
+.box-second {box-sizing: border-box;
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border: 20px solid #f44336;
+        padding: 10px;
+        margin-top: 50px;
+        }
+.text {
+        margin-top: 50px;
+        padding: 20px;
+        background-color: white;
+        border: 2px dashed blue;
+        border-radius: 20%;
+              }
+.boxing { width: 100px;
+        height: 40px;}
+        .indigo {
+                background-color: #3f51b5;
+              }
+              
+              .green {
+                background-color: #4caf50;
+              }
+              
+              .amber {
+                background-color: #ffc107;
+              }
+.parent {
+  background-color: #3f51b5;
 }
+
+.child {
+  max-width: 220px;
+  margin: 0 auto;
+  background-color: #4caf50;
+  text-align: center;
+}
+
+.parent,
+.child {
+  padding: 20px;
+  border-radius: 100px;
+  
+}
+span {
+        background-color: tomato;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-left: 10px solid #2196f3;
+        border-right: 10px solid #2196f3;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-top: 10px solid #2196f3;
+        border-bottom: 10px solid #2196f3;}
+
+        .card {
+                max-width: 320px;
+                margin: 0 auto;
+                border-radius: 4px;
+                overflow: hidden;
+                background-color: #f44336;
+        }
+              
+              .card-image {
+                max-width: 100%;
+              }
+              
+              /*.card-image.no-gap {
+                display:block;
+              }*/
+              
+              .card-heading {
+                margin: 0;
+                padding: 20px;
+                font-weight: 500;
+                background-color: #03a9f4;
+              }
+              
+              
+              .card + .card {
+                margin-top: 20px;
+              }
+
+section {box-sizing: border-box;}
+              
+.controls {
+        display: flex;
+        gap: 8px;
+      }
+   
+ 
