@@ -1,2 +1,0 @@
-# ExerciseForGoit
-Personal use only
