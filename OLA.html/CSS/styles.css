@@ -1,4 +1,5 @@
-body{background-color: white;}
+body{background-color: white;
+font-style: italic;}
 .position-sticky {background-color: yellow;
                    width: 250px;
                   z-index:3;}

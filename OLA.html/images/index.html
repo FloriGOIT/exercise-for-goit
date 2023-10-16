@@ -7,26 +7,47 @@
     <link rel="stylesheet" href="../CSS/styles.css"/>
 </head>
 <body>
-    <div class="position-sticky">
-        <ul>
-            <li id="stick">A</li>
-                <li>Ana</li>
-                <li>Alina</li>
-                <li>Amina</li>
-                <li>Amandina</li>
-                <li>Aranha</li>
-                <li>Augusta</li>
-                <li>Alexandra</li>
-                <li>Aura</li>
-                <li>Aurora</li>
-                <li>Alexandria</li>
-            </ul>
-      </div>
-      <img class="luna" src="./Moon.png" alt="moon" width="110" height="100">
-      <img class="soare" src="./soare.png" alt="soare" width="100" height="100">
 
+    <img class="luna" src="./Moon.png" alt="moon" width="110" height="100">
+    <img class="soare" src="./soare.png" alt="soare" width="100" height="100">
+    <br><br>
+    <label>
+        Personne
+        <input type="text" autofocus placeholder="Personne's name" min="3" max="120">
+    </label>
+    <br><br>
+    <label>
+        Share opinion
+        <textarea name="feedback" splaceholder="hello"></textarea>
+    </label>
+    </form>
+    <br><br>
+    <label for="size">Select size</label>
+    <select name="select_size" id="size">
+        <option value="sm">Small</option>
+        <option value="lg">Large</option>
+        <option value="extra_lg" selected>Extra large</option>
+    </select>
+    <br><br>
+    <label for="month">Month</label>
+    <select name="month_identifier" id="month">
+        <optgroup label="Summer">
+            <option value="m6">June</option>
+            <option value="m7">July</option>
+            <option value="m8">August</option>
+        </optgroup>
 
-
-      <div class="first-animation">&#9825;</div>
+        <optgroup label="Autumn">
+            <option value="m9">September</option>
+            <option value="m10">October</option>
+            <option value="m11">November</option>
+        </optgroup>
+    
+        <optgroup label="winter">
+            <option value="m12">December</option>
+            <option value="m1" selected>January</option>
+            <option value="m2">February</opttion>
+        </optgroup>
+    </select>
 </body>
 </html>
