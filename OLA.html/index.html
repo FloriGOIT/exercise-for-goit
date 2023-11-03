@@ -8,30 +8,74 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="../OLA.html/CSS/styles.css" />
   </head>
 <body>
     <section class="navigation-top">
+      <div class="nav-bar">
         <nav>
-            <ul>
-                <li><a href="#ordering">It Works</a></li>
-                <li><a href="#products">Fruits</a></li>
-                <li><a href="#footer">Contacts</a></li>
-            </ul>
+          <ul>
+              <li><a href="#ordering">How it Works</a></li>
+              <li><a href="#products">Fruits</a></li>
+              <li><a href="#footer">Contacts</a></li>
+          </ul>
         </nav>
+
         <div class="cubic-text">
             <svg width="16" height="16">
-                <use href="../images/symbol-defs.svg#icon-nav-cubic" width="16" height="16"></use>
+              <use href="../OLA.html/images/symbol-defs.svg#icon-nav-cubic" width="16" height="16"></use>
             </svg>
-            <a href="#nav">fresh harvest box</p>
+            <a href="#">FRESH HARVEST BOX</a>
         </div>
-        <svg id="icon-nav-bag" width="19" height="23">
-            <use href="../images/symbol-defs.svg#icon-nav-bag" width="19" height="23"></use>
+
+        <a href="#ordering">
+            <svg class="nav-order" id="icon-nav-bag" width="19" height="23">
+              <use href="../OLA.html/images/symbol-defs.svg#icon-nav-bag" width="19" height="23"></use>
+            </svg>
+        </a>
+
+        <a href="#">
+          <svg class="nav-mobile" class="" id="icon-nav-modal" width="20" height="14">
+            <use href="../OLA.html/images/symbol-defs.svg#icon-nav-modal" width="20" height="14"></use>
         </svg>
-        <svg id="icon-nav-modal" width="20" height="14">
-            <use href="../images/symbol-defs.svg#icon-nav-modal" width="20" height="14"></use>
-        </svg>
-    </section>   
+        </a>
+
+        <div class="js-menu-container" hidden>
+          <button title="hamburger" type="button" class="menu-toggle js-close-menu">
+            <svg width="100%" height="100%">
+              <use href="./images/icons.svg#icon-close-menu-mobile"></use>
+            </svg>
+          </button>
+          <nav class="navigation-menu-mobile"> <!-- navigatoion-menu -->
+            <ul class="navigation-pages-mobile">
+              <li><a href="index.html" class="nav-mobile-link">Studio</a></li>
+              <li><a href="portfolio.html" class="nav-mobile-link">Portfolio</a></li>
+              <li><a href="https://www.google.com/" class="nav-mobile-link">Contacts</a></li>
+            </ul>
+          </nav>
+          <ul class="header-address-mobile"> <!-- header address -->
+            <li class="email-mobile">
+              <p>info@devstudio.com</p>
+            </li>
+            <li class="phone-mobile">
+              <p>+11 (000) 111-11-11</p>
+            </li>
+          </ul>
+          <aside class="social-mobile">
+            <ul>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Linkedin</a></li>
+            </ul>
+          </aside>
+        </div>  
+
+      </div>
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
+    	<script defer src="./JS/mobile-menu.js"></script>
+    </section>
+    <section> REST</section>
 <!-- heading-section -->
   </body>
 </html>
