@@ -27,12 +27,15 @@
  body {
     background-color: var(--pink);
 }
+.js-close-menu:focus,
+.js-close-menu:hover {color: var(--green);
+                      fill: var(--green);}
 
 .js-menu-container {display: none;
   cursor: pointer;
   background-color: var(--pink);}
 .js-menu-container.is-open {position: fixed;
-    top: 16px;
+    top: 0px;
     right: 0px;
     display: flex;
     flex-direction: column;
@@ -49,12 +52,37 @@
                       padding-left:20px;
                       padding-right: 20px;
                       background-color: white;
-                      justify-content: space-between;}
-.mobile-modal-header span {padding-top: 10px;
-                           padding-bottom: 10px;}
+                      justify-content: space-between;
+                      align-items: center;
+                      padding-bottom: 10px;
+                      padding-top: 10px;}
+.mobile-modal-header div:focus,
+.mobile-modal-header div:hover,
+.mobile-modal-header button:focus,
+.mobile-modal-header button:hover,
+.mobile-modal-body li a:focus,
+.mobile-modal-body li a:hover {color: var(--green);
+                                  fill: var(--green);}
+.mobile-modal-body li svg {fill: white;}
+.mobile-modal-body li svg:focus,
+.mobile-modal-body li svg:hover {fill: var(--green);}
+.mobile-modal-header div  {display: flex;
+                           flex-direction: row;
+                          gap: 10px;
+                          fill: var(--pink);}
+
 .mobile-modal-header .js-close-menu {background-color: white;
                                      border: none;}
-                      
+.mobile-modal-body {display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 16px;
+                    list-style-type: none;
+                    font: var(--dm400-s14-lh18);
+                    margin-top: 124px;}
+.mobile-modal-body li a {text-decoration: none;
+                         color: white;}
+mobile-modal-header svg use {fill: var(--pink);}                     
                    
 
 /* NAVIGATION */
@@ -77,6 +105,8 @@
                     letter-spacing: -0.04em;
                     margin-top: 16px;
                     margin-bottom: 16px;}
+.nav-bar ul li a:focus,
+.nav-bar ul li a:hover {color: var(--green);}
 .nav-bar a {text-decoration: none;
                          color: var(--pink);}
 .nav-bar .cubic-text {display: flex;
@@ -86,25 +116,18 @@
                      font: var(--dm700-s14-lh18);
                      letter-spacing: -0.04em;
                      align-items: center;}
-    /*MODAL*/
-    /*.js-menu-container {width: 100%;
-                       z-index:10;
-                       background-color: yellow;
-                       position: absolute;
-                       top: 0;
-                       left: 0;}
-    .menu-toggle {background-color:white;
-                  border: none;}
-    .nav-modal-nav {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    align-items: center;}
-    .nav-modal-nav .cubic-text {padding-top: 0px;}
-    .nav-modal-sigla {padding-top: 0px;}*/
-    /*Mobile-menu*/
+.nav-bar .cubic-text svg {fill: var(--pink);}
+.nav-bar .cubic-text {color: var(--pink);
+                      fill: var(--pink);}
+.nav-bar .cubic-text:focus,
+.nav-bar .cubic-text:hover {color: var(--green);
+                            fill: var(--green);}
+.cubic-text {position: absolute;
+                      left:32px;
+                      top: 16px;}
+.navigation-top .nav-bar .mobile-menu svg {color: var(--pink);
+                                            fill: var(--pink);}
 
-  
     /* end Mobile-menu*/
 
 
@@ -116,9 +139,6 @@
               padding-bottom: 16px;}
     .nav-bar ul {display: none;}
     .nav-order {display: none;}
-    .cubic-text {position: absolute;
-                 left:32px;
-                 top: 16px;}
     .nav-mobile {display: block;}
 
   }
